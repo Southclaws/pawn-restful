@@ -38,7 +38,7 @@ native Request:Request(
     const path[],
     E_HTTP_METHOD:method,
     const callback[],
-    body[] = "",
+    const body[] = "",
     Headers:headers = Headers:-1
 );
 
